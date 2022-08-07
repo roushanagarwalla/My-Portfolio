@@ -6,3 +6,15 @@ body{
 a{
     color: var(--primary-text)!important;
 }
+
+.sec-text{
+    color: var(--secondary-text);
+}
+
+.tert-text{
+    color: var(--tertiary-text)
+}
+
+.q-text{
+    color: var(--tertiary-background);
+}
