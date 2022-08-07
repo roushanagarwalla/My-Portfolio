@@ -1,0 +1,19 @@
+body[color-mode="dark"]{
+    --primary-background: #14151b;
+    --secondary-background: #1A202C;
+    --tertiary-background: #ffdc70;
+    --primary-text: #9cb3c9;
+    --secondary-text: #fff;
+    --tertiary-text: #ddddff;
+    --border-color: rgba(0, 106, 255, 0.64);
+}
+
+body[color-mode="light"]{
+    --primary-background: #eee;
+    --secondary-background: #fff;
+    --tertiary-background: #0d6efd;
+    --primary-text: #333;
+    --secondary-text: #333;
+    --tertiary-text: #222;
+    --border-color: rgba(0, 0, 0, 0.64);
+}
