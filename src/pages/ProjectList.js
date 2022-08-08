@@ -1,12 +1,26 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 import Project from '../components/Project'
+import Spinner from '../components/Spinner'
+import projects from '../data/Projects'
 
 export default function ProjectList() {
-  const projectTags = ["HTML", "CSS", "JAVASCRIPT", "PYTHON", "BOOTSTRAP"]
+  const [loading, setLoading] = useState(true)
+  const [Projects, setProjects] = useState([])
+  useEffect(() => {
+    setTimeout(() => {
+      setProjects(projects);
+      setLoading(false);
+    }, 500);
+  }, Projects);
+
   return (
-    <div className='mt-5 container'>
-        <div className="row">
-            <Project url="/" title="BMSIT Bookshare" description="A website for sharing old unused books among BMSIT students" tags={projectTags} image="https://www.mmppicture.co.in/wp-content/uploads/2019/04/Book-and-Flying-Paper-Free-Stock-Background-Image.jpg" Projecturl="https://github.com/roushanagarwalla/Bmsit-Bookshare" />
+    <div className='mt-4 mt-md-5 container'>
+        <div className="row justify-content-left">
+          {loading?<Spinner />:""}
+          {!loading && Projects.map((p, index) => {
+            return <Project key={index} title={p.title} description={p.description} tags={p.tags} image={p.ImageUrl} url={p.url} />
+          })}
         </div>
     </div>
   )

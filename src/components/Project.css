@@ -29,9 +29,10 @@
     font-size: 12px;
     padding: .3rem!important;
     color: #fff;
+    /* color: #000; */
     margin-left: .3rem;
-    background-color: green;
-    font-weight: 600;
+    background-color: darkviolet;
+    font-weight:700;
 
 }
 
