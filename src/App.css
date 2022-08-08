@@ -1,5 +1,5 @@
 body{
-    background-color: var(--primary-background)!important;
+    background-color: var(--secondary-background)!important;
     color: var(--primary-text)!important;
 }
 
@@ -17,4 +17,12 @@ a{
 
 .q-text{
     color: var(--tertiary-background);
+}
+
+.pri-bg{
+    background-color: var(--primary-background)!important;
+}
+
+.sec-bg{
+    background-color: var(--secondary-background)!important;
 }
