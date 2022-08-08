@@ -8,16 +8,20 @@ a{
     color: var(--primary-text)!important;
 }
 
+.pri-text{
+    color: var(--primary-text)!important;
+}
+
 .sec-text{
-    color: var(--secondary-text);
+    color: var(--secondary-text)!important;
 }
 
 .tert-text{
-    color: var(--tertiary-text)
+    color: var(--tertiary-text)!important;
 }
 
 .q-text{
-    color: var(--tertiary-background);
+    color: var(--tertiary-background)!important;
 }
 
 .pri-bg{

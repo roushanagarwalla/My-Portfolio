@@ -1,0 +1,14 @@
+.skills-icons{
+    font-size: 2rem;
+}
+
+.skills-heading{
+    color: var(--secondary-text)!important;
+} 
+
+.other-skills-text{
+    padding: 0.5rem;
+    background: darkviolet;
+    color: #fff;
+    font-weight: 600;
+}
