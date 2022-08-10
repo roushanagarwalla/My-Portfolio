@@ -9,9 +9,9 @@ export default function ProjectList() {
   const [Projects, setProjects] = useState([])
   useEffect(() => {
     setTimeout(() => {
-      setProjects(projects);
+      setProjects(projects)
       setLoading(false);
-    }, 500);
+    }, 200);
   }, Projects);
 
   return (

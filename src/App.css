@@ -32,6 +32,22 @@ a{
     background-color: var(--secondary-background)!important;
 }
 
+.btn-bg{
+    background-color: var(--btn-background)!important;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-bg:hover{
+    opacity: 0.9;
+    color: white!important;
+    border-color: transparent;
+}
+
+a{
+    text-decoration: none!important;
+}
+
 
 /* *Scrollbar */
 
@@ -47,3 +63,11 @@ body::-webkit-scrollbar {
     background-color: var(--primary-text);
     outline: 1px solid slategrey;
   }
+
+.hand{
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: darkviolet!important;
+}

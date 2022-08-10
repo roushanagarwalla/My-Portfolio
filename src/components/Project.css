@@ -44,3 +44,7 @@
 .project-card:hover .project-description{
     display: none;
 }
+
+.image-bg{
+    background-color: #2A303C!important;
+}

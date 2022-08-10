@@ -1,3 +1,8 @@
+.skills-icons-container:hover .skills-icons{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
 .skills-icons{
     font-size: 2rem;
 }
@@ -7,8 +12,9 @@
 } 
 
 .other-skills-text{
-    padding: 0.5rem;
+    padding: 0.35rem;
     background: darkviolet;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 15px;
 }
