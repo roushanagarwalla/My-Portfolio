@@ -1,0 +1,6 @@
+.achievements-card{
+    background-color: var(--primary-background);
+    background-color: var(--card-bg);
+    color: var(--secondary-text);
+    font-weight: 500;
+}
