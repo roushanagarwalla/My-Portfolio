@@ -7,7 +7,7 @@ const data = [
     {
         title: "Winner in Project Based Learning (3rd Sem BMSIT)",
         icon: "https://ik.imagekit.io/5rvafdbx9c/portfolio/bmsit_H88RRV5hZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661607904709",
-        certificate_url: "",
+        certificate_url: "https://drive.google.com/file/d/1hovRK84OhyknJNRlHh3P_S1pN-mLYGg9/view?usp=sharing",
     },
     {
         title: "4⭐Coder at Codechef",
