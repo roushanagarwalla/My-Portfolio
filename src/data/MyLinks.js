@@ -1,6 +1,6 @@
 const MyLinks = {
     email: "roshanagarwal67@gmail.com",
-    resume: "https://drive.google.com/file/d/1WEJnllXWcQdSWHnaGGSnGx9_avp2dMCC/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/14RQwsyP6ZZTL9yuVrAx1ISElzZHkXxkx/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/roushan-agarwalla-bb0564222/",
     github: "https://github.com/roushanagarwalla",
     codechef: "https://www.codechef.com/users/roushan2001",
