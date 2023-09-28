@@ -15,6 +15,21 @@ const data = [
         certificate_url: "https://www.codechef.com/users/roushan2001",
     },
     {
+        title: "Specialist on Codeforces",
+        icon: "https://ik.imagekit.io/5rvafdbx9c/portfolio/codeforces_7IqFiegFY.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660048056948",
+        certificate_url: "https://codeforces.com/profile/roshanagarwal67",
+    },
+    {
+        title: "Knight on Leetcode",
+        icon: "https://ik.imagekit.io/5rvafdbx9c/portfolio/leetcode_Nvxn3YQtz.png?updatedAt=1695928791323",
+        certificate_url: "https://leetcode.com/roushanagarwalla/",
+    },
+    {
+        title: "Achieved 394 rank on Leetcode Contest out of 24k+ participants",
+        icon: "https://ik.imagekit.io/5rvafdbx9c/portfolio/leetcode_Nvxn3YQtz.png?updatedAt=1695928791323",
+        certificate_url: "https://leetcode.com/roushanagarwalla/",
+    },
+    {
         title: "Problem Solving(Basic) Certificate by Hackerrank",
         icon: "https://ik.imagekit.io/5rvafdbx9c/portfolio/hackerrank_TJE_WPfN4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660048056924",
         certificate_url: "https://www.hackerrank.com/certificates/2252e975d974",

@@ -8,6 +8,7 @@ export default function Home() {
     const HackerrankLogo = "https://ik.imagekit.io/5rvafdbx9c/portfolio/hackerrank_TJE_WPfN4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660048056924"
     const codechefLogo = "https://ik.imagekit.io/5rvafdbx9c/portfolio/codechef__GMYRPFNC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660048057369"
     const codeforcesLogo = "https://ik.imagekit.io/5rvafdbx9c/portfolio/codeforces_7IqFiegFY.png?ik-sdk-version=javascript-1.4.3&updatedAt=1660048056948"
+    const leetcodeLogo = "https://ik.imagekit.io/5rvafdbx9c/portfolio/leetcode_Nvxn3YQtz.png?updatedAt=1695928791323"
 
     const typewritterText = ['I am a Web Developer', 'I am a Competitive Programmer', 'I Love to build things'];
     return (
@@ -68,6 +69,10 @@ export default function Home() {
                                         <div className='mb-3 me-2 btn btn-bg btn-sm d-flex'>
                                             <i className="fs-6 bi bi-github"></i>
                                             <a target="_blank" rel="noreferrer" href={links.github} className="align-self-center mx-2 text-light">Github</a>
+                                        </div>
+                                        <div className='mb-3 me-2 btn btn-bg btn-sm d-flex'>
+                                            <img className="img-fluid" src={leetcodeLogo} alt="" />
+                                            <a target="_blank" rel="noreferrer" href={links.leetcode} className="align-self-center mx-2 text-light">Leetcode</a>
                                         </div>
                                     </div>
                                 </div>

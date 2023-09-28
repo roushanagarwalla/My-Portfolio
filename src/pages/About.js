@@ -10,12 +10,15 @@ export default function About() {
             <div className="col-lg-6">
                 <h4 className="q-text">About Me</h4>
                 <div className='mt-4 mb-5'>
-                    Passionate about building efficient web application. Developed a full stack web application for Flipr's Hackathon in a period of 3 days. Good at program solving, and achieved the tag of 4⭐ coder in Codechef within the span of just 5 months. Worked in many small web development projects using technologies like HTML, CSS, Javascript, Bootstrap, Django, FastAPI, etc. Motivated to learn something new and interesting everyday.
+                    Passionate about writing efficient code, adept at
+                    problem-solving and time management. Developed a
+                    full-stack website for Flipr's hackathon in just three
+                    days. Enthusiastic about competitive programming. Motivated to learn something new and interesting everyday.
                     <div className='mt-4'>
                         <h5 className='q-text'>Education</h5>
                         <p className='mb-1 sec-text'>BMS Institute of Technology and Management, Bengaluru <span className='sec-text'>(2020-2024)</span></p>
                         <p className='mb-1 fs-6 sec-text'><em>B.E (Information Science Engineering)</em></p>
-                        <p className='q-text text-muted'><em>CGPA-8.65</em></p>
+                        <p className='q-text text-muted'><em>CGPA-8.61</em></p>
                     </div>
                 </div>
             </div>
